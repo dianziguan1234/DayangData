@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184C6D1F1E27911900C172DC /* NSArrayObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C6D1E1E27911900C172DC /* NSArrayObject.m */; };
 		BED21E0C1BCA0BF900A00C11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BED21E0B1BCA0BF900A00C11 /* main.m */; };
-		BED21E141BCA0C4600A00C11 /* NSArrayObjiect.m in Sources */ = {isa = PBXBuildFile; fileRef = BED21E131BCA0C4600A00C11 /* NSArrayObjiect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		184C6D1D1E27911900C172DC /* NSArrayObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayObject.h; sourceTree = "<group>"; };
+		184C6D1E1E27911900C172DC /* NSArrayObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayObject.m; sourceTree = "<group>"; };
 		BED21E081BCA0BF900A00C11 /* change */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = change; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED21E0B1BCA0BF900A00C11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BED21E121BCA0C4600A00C11 /* NSArrayObjiect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayObjiect.h; sourceTree = "<group>"; };
-		BED21E131BCA0C4600A00C11 /* NSArrayObjiect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayObjiect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				BED21E0B1BCA0BF900A00C11 /* main.m */,
-				BED21E121BCA0C4600A00C11 /* NSArrayObjiect.h */,
-				BED21E131BCA0C4600A00C11 /* NSArrayObjiect.m */,
+				184C6D1D1E27911900C172DC /* NSArrayObject.h */,
+				184C6D1E1E27911900C172DC /* NSArrayObject.m */,
 			);
 			path = change;
 			sourceTree = "<group>";
@@ -124,7 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BED21E0C1BCA0BF900A00C11 /* main.m in Sources */,
-				BED21E141BCA0C4600A00C11 /* NSArrayObjiect.m in Sources */,
+				184C6D1F1E27911900C172DC /* NSArrayObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +241,7 @@
 				BED21E111BCA0BF900A00C11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

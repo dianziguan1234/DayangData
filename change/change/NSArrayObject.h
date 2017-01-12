@@ -8,10 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArrayObjiect : NSObject
-{
-    NSArray *_array;
-}
+@interface NSArrayObject : NSObject
 
--(NSArray *)revret:(NSMutableArray *)array;
+-(NSArray *)revret:(NSArray *)array;
+
 @end

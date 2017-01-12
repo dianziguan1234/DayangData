@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NSArrayObjiect.h"
+#import "NSArrayObject.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         //NSLog(@"Hello, World!"
-        NSMutableArray *array=[NSMutableArray arrayWithObjects:@"12",@"43",@"13",@"45",@"1100", nil];
-        NSArrayObjiect *vc=[[NSArrayObjiect alloc]init];
+        NSArray *array=[NSArray arrayWithObjects:@"12",@"43",@"13",@"45",@"1100", nil];
+        NSArrayObject *vc=[[NSArrayObject alloc]init];
         
         
         
